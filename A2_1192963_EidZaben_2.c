@@ -102,7 +102,8 @@ int main()
 
     while (strcmp(line, "quit"))
     {
-        printf("Enter a command, text or quit\n");
+        printf("Enter a special command, text or quit\n");
+        printf("Special commands are: undo, redo, print & save\n");
 
         fgets(line, 100, stdin);
 
